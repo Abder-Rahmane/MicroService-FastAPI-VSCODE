@@ -1,189 +1,69 @@
-![Microservice](https://img.shields.io/badge/Microservice-red)
-![FastAPI](https://img.shields.io/badge/FastAPI-green)
-![Docker](https://img.shields.io/badge/Docker-blue)
-![Version](https://img.shields.io/badge/version-2.7.6---)
+<h1>Contribution Guide</h1>
 
-**MicroService FastAPI** is a powerful VS Code extension designed to streamline the creation, management, and deployment of FastAPI microservices. This extension helps developers efficiently handle microservices with Docker and now includes a Local launch mode, allowing users to switch between Docker and Local environments for greater flexibility.
+<p>🎉 We’re thrilled you’re considering contributing to <strong>MicroService FastAPI</strong>! Whether you're fixing bugs, improving documentation, or adding new features, every contribution is valuable. This guide provides a quick overview of how to get started.</p>
 
-## Features
+<h2>Getting Started</h2>
 
-### Commands
+<ol>
+    <li><strong>Fork the Repository</strong>: Create a copy of the repository on your GitHub account by clicking the "Fork" button.</li>
+    <li><strong>Clone the Repository</strong>: Once forked, clone the repository to your local machine.
+        <pre><code>git clone https://github.com/Abder-Rahmane/MicroService-FastAPI-VSCODE.git</code></pre>
+    </li>
+    <li><strong>Set Up the Environment</strong>: Make sure you have <a href="https://docs.docker.com/get-docker/">Docker</a> and <a href="https://fastapi.tiangolo.com/">FastAPI</a> installed. Follow the project’s instructions for setting up the development environment.</li>
+</ol>
 
-- **Create MicroService**: Quickly scaffold a new FastAPI microservice.
-- **Focus**: Easily navigate and open relevant files for a specific microservice.
-- **Show Docker Logs**: View real-time logs from Docker containers.
+<h2>Workflow for Contributions</h2>
 
+<ol>
+    <li><strong>Create a Branch</strong>: Always create a new branch for your work. This keeps <code>main</code> clean and makes it easier to review.
+        <pre><code>git checkout -b feature/your-feature-name</code></pre>
+    </li>
+    <li><strong>Make Your Changes</strong>: Implement your feature, fix, or improvement in the codebase.</li>
+    <li><strong>Commit and Push</strong>: Commit your changes with clear messages, then push to your fork.
+        <pre><code>git add .
+git commit -m "Add feature: your-feature-name"
+git push origin feature/your-feature-name</code></pre>
+    </li>
+    <li><strong>Submit a Pull Request</strong>: Go to the original repository, find the "Pull Requests" tab, and submit a new pull request (PR) from your branch to <code>main</code>. Describe your changes and provide any relevant information or screenshots.</li>
+</ol>
 
+<h2>Guidelines</h2>
 
-### Launch Modes
+<h3>Code Quality</h3>
+<ul>
+    <li><strong>Format Your Code</strong>: Ensure code readability by following consistent formatting practices. We recommend <a href="https://prettier.io/">Prettier</a> for code styling.</li>
+    <li><strong>Write Descriptive Commits</strong>: Each commit message should provide context for the changes. For example: <code>Fix: resolve issue with Docker launch mode switching</code>.</li>
+</ul>
 
-- **Docker Mode**: Manage and deploy your microservices using Docker containers.
-- **Local Mode**: Run your microservices directly on your local machine without the need for Docker, providing a lightweight and faster development experience.
+<h3>Tests</h3>
+<ul>
+    <li>Add unit tests for any new features or bug fixes.</li>
+    <li>Run tests before submitting your PR to ensure that everything works as expected.</li>
+    <li>We use <code>pytest</code> for testing. Please follow the project’s test structure and maintain coverage for all functionalities.</li>
+</ul>
 
-![Create Microservice Demo](https://raw.githubusercontent.com/Abder-Rahmane/MicroService-FastAPI-VSCODE/main/assets/swicthmode.gif)
+<h3>Documentation</h3>
+<ul>
+    <li>Update the README or relevant docs if your changes affect the user experience.</li>
+    <li>Add comments to clarify any complex code sections.</li>
+</ul>
 
-<br>
+<h2>Reporting Bugs</h2>
+<p>If you find a bug, please open an issue with:</p>
+<ul>
+    <li>A clear title describing the problem.</li>
+    <li>Steps to reproduce the issue.</li>
+    <li>Expected vs. actual results.</li>
+    <li>Any screenshots or logs, if available.</li>
+</ul>
 
-## Quick Start
+<h2>Requesting Features</h2>
+<p>We welcome feature requests! Open an issue and label it as a "Feature Request." Please include a description of the desired feature and the motivation behind it.</p>
 
-### Installation
+<h2>Code of Conduct</h2>
+<p>Please respect others and be mindful of your language in communication. We're here to make <strong>MicroService FastAPI</strong> a welcoming and safe space for everyone.</p>
 
-1. Open VS Code
-2. Go to Extensions (Ctrl+Shift+X)
-3. Search for `MicroService FastAPI`
-4. Click Install
+<h2>Support</h2>
+<p>Need help? Feel free to contact <a href="https://www.linkedin.com/in/abder-rahmane-magroud/">MAGROUD Abderrahmane</a> or reach out via email at <a href="mailto:reprend_05_cursif@icloud.com">reprend_05_cursif@icloud.com</a>.</p>
 
-<br>
-
-### Creating a Microservice
-
-1. Open the command palette (Ctrl+Shift+P)
-2. Type `MicroService: Create MicroService`
-3. Follow the prompts to create a new project and then create a new microservice within the project. If no project exists, it will prompt you to create one before creating the microservice.
-
-![Create Microservice Demo](https://raw.githubusercontent.com/Abder-Rahmane/MicroService-FastAPI-VSCODE/main/assets/create.gif)
-
-<br>
-
-### Deploying a Microservice
-
-1. In the sidebar, click on the Microservice Explorer view.
-2. Right-click on the microservice you want to deploy or click the play button next to the project to deploy all microservices within the project.
-3. Wait for the containers to start and view the logs.
-
-
-![Deploy in Docker Demo](https://raw.githubusercontent.com/Abder-Rahmane/MicroService-FastAPI-VSCODE/main/assets/deploy.gif)
-
-<br>
-
-### Managing Microservices
-
-Use the following commands to manage your microservices:
-
-1. **Start Microservice**
-2. **Stop Microservice**
-3. **Restart Microservice** (also updates the microservice)
-
-These commands can also be used to update the files and manage the state of your microservices.
-
-![Manage Microservices Demo](https://raw.githubusercontent.com/Abder-Rahmane/MicroService-FastAPI-VSCODE/main/assets/command.gif)
-
-<br>
-
-### Additional Commands
-
-In the menu with icons, you can access additional commands:
-
-1. **Focus on a Microservice**: Click the focus icon to navigate and open relevant files for a specific microservice.
-2. **Show Docker Logs**: Click the logs icon to view real-time logs from Docker containers for troubleshooting and monitoring.
-
-![Additional Commands Demo](https://raw.githubusercontent.com/Abder-Rahmane/MicroService-FastAPI-VSCODE/main/assets/otherCommand.gif)
-
-<br>
-
-### Switching Launch Modes
-
-You can easily switch between **Docker** and **Local** launch modes to run your microservices in the environment that best suits your development workflow.
-
-1. Open the command palette (Ctrl+Shift+P).
-2. Type `MicroService: Switch Launch Mode`.
-3. Choose between **Docker** and **Local** modes.
-
-- **Docker Mode**: Runs microservices inside Docker containers.
-- **Local Mode**: Runs microservices directly on your local machine without Docker.
-
-<br>
-
-## Alembic Migrations
-
-If you encounter issues with Alembic migrations, follow these steps to reset and reconfigure the migration setup :
-
-1. **Delete the existing Alembic directory and `alembic.ini` file**:
-```rm -rf alembic alembic.ini```
-
-2. **Create a new Alembic directory in the app/ directory**:
-```alembic init app/alembic```
-
-3. **Update the sqlalchemy.url in the alembic.ini file to match your database schema URL**:
-```sqlalchemy.url = <your_database_url>```
-
-<br>
-
-## Micro Service  Structure
-
-```
-<rootPath>
-└── microservices
-    └── example
-        ├── app
-        │   ├── __init__.py
-        │   ├── main.py
-        │   ├── core
-        │   │   ├── __init__.py
-        │   │   ├── config.py
-        │   │   └── security.py
-        │   ├── api
-        │   │   ├── __init__.py
-        │   │   └── v1
-        │   │       ├── __init__.py
-        │   │       └── endpoints
-        │   │           ├── __init__.py
-        │   │           ├── example_endpoint.py
-        │   │           └── auth.py
-        │   ├── models
-        │   │   ├── __init__.py
-        │   │   ├── example.py
-        │   │   └── user_model.py
-        │   ├── schemas
-        │   │   ├── __init__.py
-        │   │   ├── example.py
-        │   │   └── user_schema.py
-        │   ├── crud
-        │   │   ├── __init__.py
-        │   │   ├── example.py
-        │   │   └── user_crud.py
-        │   ├── db
-        │   │   ├── __init__.py
-        │   │   ├── base.py
-        │   │   └── session.py
-        │   ├── auth
-        │   │   ├── __init__.py
-        │   │   ├── jwt.py
-        │   │   └── oauth2.py
-        │   ├── tests
-        │   │   ├── __init__.py
-        │   │   ├── test_example.py
-        │   │   └── test_auth.py
-        ├── alembic
-        │   ├── env.py
-        │   ├── script.py.mako
-        │   └── versions
-        ├── scripts
-        │   └── init_db.py
-        ├── .env
-        ├── .gitignore
-        ├── requirements.txt
-        ├── Dockerfile
-        └── README.md
-```
-
-## Future Updates
-
-We are planning to add the following features in future updates:
-
-- A debugger to identify and fix issues when a microservice is not working correctly.
-- Automated data migration using Alembic.
-- Deployment support for multiple platforms including GCP, AWS, Heroku, and Vercel...
-
-## Credits
-
-Created by [MAGROUD Abderrahmane](https://www.linkedin.com/in/abder-rahmane-magroud/)
-<br><br>
-Hey developers! 🚀 Ready to take your microservices game to the next level? With this extension, creating and managing FastAPI microservices is as easy as pie. Remember, you can quickly focus on any microservice, restart Docker containers, and view logs in real-time. Enjoy coding, and don't forget to have fun while you're at it! 😄
-<br><br>
-For any feedback or suggestions, feel free to [contact us](mailto:reprend_05_cursif@icloud.com).
-
-
-## License
-
-[MIT](LICENSE)
+<p>We can’t wait to see your contributions! Thank you for helping us make <strong>MicroService FastAPI</strong> better. 🚀</p>
