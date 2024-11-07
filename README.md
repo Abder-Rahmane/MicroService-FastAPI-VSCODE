@@ -1,12 +1,9 @@
-# MicroService FastAPI
-
-
 ![Microservice](https://img.shields.io/badge/Microservice-red)
 ![FastAPI](https://img.shields.io/badge/FastAPI-green)
 ![Docker](https://img.shields.io/badge/Docker-blue)
-![Version](https://img.shields.io/badge/version-2.7.1--Beta-yellow)
+![Version](https://img.shields.io/badge/version-2.7.5---)
 
-Focus Microservice Generator is a powerful VS Code extension designed to streamline the creation, management, and deployment of FastAPI microservices. This extension helps developers efficiently handle microservices with Docker.
+**MicroService FastAPI** is a powerful VS Code extension designed to streamline the creation, management, and deployment of FastAPI microservices. This extension helps developers efficiently handle microservices with Docker and now includes a Local launch mode, allowing users to switch between Docker and Local environments for greater flexibility.
 
 ## Features
 
@@ -15,6 +12,13 @@ Focus Microservice Generator is a powerful VS Code extension designed to streaml
 - **Create MicroService**: Quickly scaffold a new FastAPI microservice.
 - **Focus**: Easily navigate and open relevant files for a specific microservice.
 - **Show Docker Logs**: View real-time logs from Docker containers.
+- **Switch Launch Mode**: Toggle between **Docker** and **Local** launch modes to run microservices either with Docker or directly on your local environment.
+
+
+### Launch Modes
+
+- **Docker Mode**: Manage and deploy your microservices using Docker containers.
+- **Local Mode**: Run your microservices directly on your local machine without the need for Docker, providing a lightweight and faster development experience.
 
 ## Quick Start
 
@@ -70,6 +74,19 @@ In the menu with icons, you can access additional commands:
 2. **Show Docker Logs**: Click the logs icon to view real-time logs from Docker containers for troubleshooting and monitoring.
 
 ![Additional Commands Demo](https://raw.githubusercontent.com/Abder-Rahmane/image-microservice/main/assets/otherCommand.gif)
+
+<br>
+
+### Switching Launch Modes
+
+You can easily switch between **Docker** and **Local** launch modes to run your microservices in the environment that best suits your development workflow.
+
+1. Open the command palette (Ctrl+Shift+P).
+2. Type `MicroService: Switch Launch Mode`.
+3. Choose between **Docker** and **Local** modes.
+
+- **Docker Mode**: Runs microservices inside Docker containers.
+- **Local Mode**: Runs microservices directly on your local machine without Docker.
 
 <br>
 
