@@ -1,7 +1,7 @@
 ![Microservice](https://img.shields.io/badge/Microservice-red)
 ![FastAPI](https://img.shields.io/badge/FastAPI-green)
 ![Docker](https://img.shields.io/badge/Docker-blue)
-![Version](https://img.shields.io/badge/version-2.7.5---)
+![Version](https://img.shields.io/badge/version-2.7.6---)
 
 **MicroService FastAPI** is a powerful VS Code extension designed to streamline the creation, management, and deployment of FastAPI microservices. This extension helps developers efficiently handle microservices with Docker and now includes a Local launch mode, allowing users to switch between Docker and Local environments for greater flexibility.
 
@@ -14,10 +14,15 @@
 - **Show Docker Logs**: View real-time logs from Docker containers.
 
 
+
 ### Launch Modes
 
 - **Docker Mode**: Manage and deploy your microservices using Docker containers.
 - **Local Mode**: Run your microservices directly on your local machine without the need for Docker, providing a lightweight and faster development experience.
+
+![Create Microservice Demo](https://raw.githubusercontent.com/Abder-Rahmane/MicroService-FastAPI-VSCODE/main/assets/swicthmode.gif)
+
+<br>
 
 ## Quick Start
 
@@ -36,7 +41,7 @@
 2. Type `MicroService: Create MicroService`
 3. Follow the prompts to create a new project and then create a new microservice within the project. If no project exists, it will prompt you to create one before creating the microservice.
 
-![Create Microservice Demo](https://raw.githubusercontent.com/Abder-Rahmane/image-microservice/main/assets/create.gif)
+![Create Microservice Demo](https://raw.githubusercontent.com/Abder-Rahmane/MicroService-FastAPI-VSCODE/main/assets/create.gif)
 
 <br>
 
@@ -47,7 +52,7 @@
 3. Wait for the containers to start and view the logs.
 
 
-![Deploy in Docker Demo](https://raw.githubusercontent.com/Abder-Rahmane/image-microservice/main/assets/deploy.gif)
+![Deploy in Docker Demo](https://raw.githubusercontent.com/Abder-Rahmane/MicroService-FastAPI-VSCODE/main/assets/deploy.gif)
 
 <br>
 
@@ -61,7 +66,7 @@ Use the following commands to manage your microservices:
 
 These commands can also be used to update the files and manage the state of your microservices.
 
-![Manage Microservices Demo](https://raw.githubusercontent.com/Abder-Rahmane/image-microservice/main/assets/command.gif)
+![Manage Microservices Demo](https://raw.githubusercontent.com/Abder-Rahmane/MicroService-FastAPI-VSCODE/main/assets/command.gif)
 
 <br>
 
@@ -72,7 +77,7 @@ In the menu with icons, you can access additional commands:
 1. **Focus on a Microservice**: Click the focus icon to navigate and open relevant files for a specific microservice.
 2. **Show Docker Logs**: Click the logs icon to view real-time logs from Docker containers for troubleshooting and monitoring.
 
-![Additional Commands Demo](https://raw.githubusercontent.com/Abder-Rahmane/image-microservice/main/assets/otherCommand.gif)
+![Additional Commands Demo](https://raw.githubusercontent.com/Abder-Rahmane/MicroService-FastAPI-VSCODE/main/assets/otherCommand.gif)
 
 <br>
 
