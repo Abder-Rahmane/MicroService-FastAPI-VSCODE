@@ -7,7 +7,7 @@
 <ol>
     <li><strong>Fork the Repository</strong>: Create a copy of the repository on your GitHub account by clicking the "Fork" button.</li>
     <li><strong>Clone the Repository</strong>: Once forked, clone the repository to your local machine.
-        <pre><code>git clone https://github.com/your-username/MicroService-FastAPI-VSCODE.git</code></pre>
+        <pre><code>git clone https://github.com/Abder-Rahmane/MicroService-FastAPI-VSCODE.git</code></pre>
     </li>
     <li><strong>Set Up the Environment</strong>: Make sure you have <a href="https://docs.docker.com/get-docker/">Docker</a> and <a href="https://fastapi.tiangolo.com/">FastAPI</a> installed. Follow the project’s instructions for setting up the development environment.</li>
 </ol>
