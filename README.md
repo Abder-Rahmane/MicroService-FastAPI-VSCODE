@@ -4,6 +4,8 @@
 
 <h2>Getting Started</h2>
 
+<a href="https://marketplace.visualstudio.com/items?itemName=magabde.focus-microservice">MicroService FastAPI</a>
+
 <ol>
     <li><strong>Fork the Repository</strong>: Create a copy of the repository on your GitHub account by clicking the "Fork" button.</li>
     <li><strong>Clone the Repository</strong>: Once forked, clone the repository to your local machine.
