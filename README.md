@@ -12,7 +12,6 @@
 - **Create MicroService**: Quickly scaffold a new FastAPI microservice.
 - **Focus**: Easily navigate and open relevant files for a specific microservice.
 - **Show Docker Logs**: View real-time logs from Docker containers.
-- **Switch Launch Mode**: Toggle between **Docker** and **Local** launch modes to run microservices either with Docker or directly on your local environment.
 
 
 ### Launch Modes
