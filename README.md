@@ -41,7 +41,6 @@ git push origin feature/your-feature-name</code></pre>
 <ul>
     <li>Add unit tests for any new features or bug fixes.</li>
     <li>Run tests before submitting your PR to ensure that everything works as expected.</li>
-    <li>We use <code>pytest</code> for testing. Please follow the project’s test structure and maintain coverage for all functionalities.</li>
 </ul>
 
 <h3>Documentation</h3>
